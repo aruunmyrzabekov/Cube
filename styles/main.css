@@ -1,0 +1,194 @@
+div{
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    animation: rotate 3s infinite;
+}
+
+#linear{
+    animation:  drag 3s infinite;
+    background-color: blue;
+    
+    
+}
+@keyframes drag{
+    
+    from{
+        transition: rotate(0deg);
+        left: 0;
+    }
+    to{
+        transform: rotate(720deg);
+        left: 800px;
+    }
+    
+    
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        top: 0;
+        left: 900px;
+
+    }
+    50%{
+       left: 900px;
+       top: 400px;
+    }
+    75%{
+        top: 400px;
+        left: 0;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+   
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotate{
+    from{
+        transition: rotate(0deg);
+        left: 0;
+    }
+    to{
+        transform: rotate(720deg);
+        left: 800px;
+    }
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        top: 0;
+        left: 900px;
+
+    }
+    50%{
+       left: 900px;
+       top: 400px;
+    }
+    75%{
+        top: 400px;
+        left: 0;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+   
+}
+
+
+#era{
+    animation:  drag 5s infinite;
+    background-color: rgb(146, 212, 21);
+    
+    
+}
+@keyframes drag{
+    
+    from{
+        transition: rotate(0deg);
+        left: 0;
+    }
+    to{
+        transform: rotate(720deg);
+        left: 800px;
+    }
+    
+    
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        top: 0;
+        left: 900px;
+
+    }
+    50%{
+       left: 900px;
+       top: 400px;
+    }
+    75%{
+        top: 400px;
+        left: 0;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+   
+    
+    
+    
+}
+
+#ere{
+    animation:  drag 6s infinite;
+    background-color: rgb(255, 30, 0);
+}
+@keyframes drag{
+    
+    from{
+        transition: rotate(0deg);
+        left: 0;
+    }
+    to{
+        transform: rotate(720deg);
+        left: 800px;
+    }
+    
+    
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        top: 0;
+        left: 900px;
+
+    }
+    50%{
+       left: 900px;
+       top: 400px;
+    }
+    75%{
+        top: 400px;
+        left: 0;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+   
+    
+    
+    
+}
+
+
+
+
+
+
+
+
